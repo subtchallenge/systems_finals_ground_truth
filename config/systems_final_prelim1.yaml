@@ -1,0 +1,44 @@
+frame_id: darpa
+marker_color: [0.7, 0.7, 0.0]
+artifacts:
+  - type: cell_phone
+    position: [16.856, 24.493, -1.387]
+  - type: vent
+    position: [5.252, 37.726, -2.337]
+  - type: survivor
+    position: [-2.060, 39.639, -2.099]
+  - type: vent
+    position: [23.198, 82.141, -0.807]
+  - type: backpack
+    position: [28.918, 54.346, 0.472]
+  - type: vent
+    position: [16.852, 45.652, -0.505]
+  - type: fire_extinguisher
+    position: [18.995, 6.184, -1.724]
+  - type: backpack
+    position: [22.218, 13.219, -2.795]
+  - type: cell_phone
+    position: [26.827, 30.126, -2.403]
+  - type: backpack
+    position: [37.718, 38.398, -3.274]
+  - type: fire_extinguisher
+    position: [38.073, 45.258, -2.194]
+  - type: fire_extinguisher
+    position: [32.639, 79.514, -3.238]
+  - type: survivor
+    position: [37.240, 66.609, -3.193]
+  - type: rope
+    position: [27.037, 5.672, -1.400]
+  - type: backpack
+    position: [49.283, -20.214, -1.630]
+  - type: cell_phone
+    position: [41.066, 22.391, -2.353]
+  - type: rope
+    position: [45.384, 41.969, -0.802]
+  - type: survivor
+    position: [52.602, 38.012, -3.101]
+  - type: rope
+    position: [58.337, 78.970, -3.311]
+  - type: rope
+    position: [61.580, 105.242, -4.192]
+
