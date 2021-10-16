@@ -19,9 +19,9 @@
     <param name="latch" value="true"/>
   </node>
 
-  <!-- UTM to DARPA Frame - Needs to be updated -->
+  <!-- UTM to DARPA Frame -->
   <node pkg="tf2_ros" type="static_transform_publisher" name="utm_to_darpa"
-        args="0.0 0.0 0.0 0.0 0.0 0.0 utm darpa"/>
+        args="613295.646 4229514.263 99.674 0.0 0.0 -1.12406 utm darpa"/>
 
   <node if="$(arg rviz)" pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find finals_ground_truth)/launch/view_finals.rviz"/>
 

@@ -26,7 +26,7 @@ on the */tf_static* ROS topic. These coordinate frames are defined as follows:
 
 * `darpa` = the DARPA Cartesian coordinate frame for the Finals course
 
-* `utm` = a Cartesian coordinate frame, defined by UTM zone 17N
+* `utm` = a Cartesian coordinate frame, defined by UTM zone 16N
 
 ### Additional Links ###
 
