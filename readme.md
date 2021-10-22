@@ -17,7 +17,7 @@ The course may be visualized as a point cloud with artifact markers using ROS an
 
 To visualize the point clouds and artifact locations, run `roslaunch finals_ground_truth view.launch`. Pass with argument, e.g., `config:=prelim1` to visualize artifact locations for a particular configuration. The default configuration is `prize`. Config may be `prelim1`, `prelim2`, or `prize`.
 
-# Note on Coordinate Transforms #
+### Note on Coordinate Transforms ###
 
 Surveyed scan data is provided in a single file.
 When using the *view.launch* file, the point cloud is provided in the `darpa`
