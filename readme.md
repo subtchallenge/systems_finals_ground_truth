@@ -15,7 +15,7 @@ This repo provides ground truth data for Artifact types and locations used at th
 
 The course may be visualized as a point cloud with artifact markers using ROS and RViz. This package depends on ROS and the `pcl_ros` package to build.
 
-To visualize the point clouds and artifact locations, run `roslaunch finals_ground_truth view.launch`. Pass with arguments, e.g., `config:=prelim1 config:=prelim2` to visualize artifact locations for a particular configuration as the default configuration is `prize`. Config may be `prelim1`, `prelim2`, or `prize`.
+To visualize the point clouds and artifact locations, run `roslaunch finals_ground_truth view.launch`. Pass with argument, e.g., `config:=prelim1` to visualize artifact locations for a particular configuration. The default configuration is `prize`. Config may be `prelim1`, `prelim2`, or `prize`.
 
 # Note on Coordinate Transforms #
 
