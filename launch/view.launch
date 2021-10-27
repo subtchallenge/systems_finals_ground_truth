@@ -1,0 +1,28 @@
+<launch>
+
+  <arg name="rviz"   default="true"/>
+  <arg name="config" default="prize"   doc="prelim1, prelim2, or prize"/>
+  <arg name="pcd_filename" default="$(find finals_ground_truth)/data/systems_final.pcd" />
+
+  <!-- Load Artifacts as Markers -->
+  <group if="$(eval config != '')">
+
+     <rosparam param="/$(arg config)/artifacts" file="$(find finals_ground_truth)/config/systems_final_$(arg config).yaml" />
+     <node ns="$(arg config)" pkg="finals_ground_truth" type="publish_artifacts.py" name="artifact_markers" output="screen"/>
+
+  </group>
+
+  <!-- Load Scan as Point Cloud -->
+  <node pkg="finals_ground_truth" type="load_pcd" name="scans_pcd" args="$(arg pcd_filename) 5.0" output="screen">
+    <param name="frame_id" value="darpa"/>
+    <remap from="cloud_pcd" to="/course_scans"/>
+    <param name="latch" value="true"/>
+  </node>
+
+  <!-- UTM to DARPA Frame -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="utm_to_darpa"
+        args="613295.646 4229514.263 99.674 0.0 0.0 -1.12406 utm darpa"/>
+
+  <node if="$(arg rviz)" pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find finals_ground_truth)/launch/view_finals.rviz"/>
+
+</launch>
