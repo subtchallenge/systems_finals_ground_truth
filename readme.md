@@ -31,32 +31,34 @@ on the */tf_static* ROS topic. These coordinate frames are defined as follows:
 ### Additional Links ###
 
 * **Point Cloud Flythrough Videos**
-  * Tunnel Flythrough: https://youtu.be/0brZuy6Qq2E
-  * Urban Flythrough: https://youtu.be/odE8a-5CW6A
-  * Cave Flythrough: https://youtu.be/uXaj_M6L5oo
+    * Tunnel Flythrough: https://youtu.be/0brZuy6Qq2E
+    * Urban Flythrough: https://youtu.be/odE8a-5CW6A
+    * Cave Flythrough: https://youtu.be/uXaj_M6L5oo
 
 * **Course Walkthrough Videos**
-  * Prelim 1: https://youtu.be/i-8aPpJfGS0
-  * Prelim 2: https://youtu.be/zqRuBJ-VxMg
-  * Prize Round: https://youtu.be/6Fte0KipSfk
+    * Prelim 1: https://youtu.be/i-8aPpJfGS0
+    * Prelim 2: https://youtu.be/zqRuBJ-VxMg
+    * Prize Round: https://youtu.be/6Fte0KipSfk
  
 * **360 Degree Flythrough Video Links**
-  * Tunnel: https://youtu.be/G8SLE7phtLY
-  * Urban: https://youtu.be/yTecsOv_1Rw
-  * Cave: https://youtu.be/DCE59ViPoMY
+    * Tunnel: https://youtu.be/G8SLE7phtLY
+    * Urban: https://youtu.be/yTecsOv_1Rw
+    * Cave: https://youtu.be/DCE59ViPoMY
  
 * **Full Run Videos Playlist**
-  * Final Event full run videos: https://youtube.com/playlist?list=PL6wMum5UsYvZd6VwOZVZHu9QldFp8vEgX
+    * Final Event full run videos: https://youtube.com/playlist?list=PL6wMum5UsYvZd6VwOZVZHu9QldFp8vEgX
  
 * **Finals Course High Resolution Point Cloud**
-  * https://subt-challenge.s3.amazonaws.com/final_event/systems_final_highres.pcd -- High resolution point cloud with a file size of 12 GB.
-  * A full resolution point cloud file is also available upon request (>100 GB). Any teams interested in utilizing the full resolution file may send a request to subtchallenge@darpa.mil.
- 
+    * https://subt-challenge.s3.amazonaws.com/final_event/systems_final_highres.pcd -- High resolution point cloud with a file size of 12 GB.
+    * A full resolution point cloud file is also available upon request (>100 GB). Any teams interested in utilizing the full resolution file may send a request to subtchallenge@darpa.mil.
+  
 * **Virtual Worlds for each Systems Finals Course Configurations**
-Each of the course configurations used in the Systems Final Event is now available in the [SubT Virtual Testbed repo](https://github.com/osrf/subt)
+    * https://github.com/osrf/subt -- Virtual Worlds for each of the course configurations used in the Systems Final Event
  
+
 * **Point Clouds Sampled from Virtual Worlds**
-Ground truth point cloud data is available for each of the Virtual Competition worlds: https://github.com/subtchallenge/virtual_ground_truth
+    * https://github.com/subtchallenge/virtual_ground_truth -- Ground truth point cloud data for each of the Virtual Competition worlds: 
  
+
 * **High Resolution Cave Point Cloud Files**
 Scans are also available upon request from several segments of caves that were used as inspiration for the Finals Course cave subdomain. 5 total segments are available and range from 15-60m in length for a total file size of >130 GB. Any teams interested in utilizing the cave scan files may send a request to subtchallenge@darpa.mil.
