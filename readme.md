@@ -6,6 +6,7 @@ This repo provides ground truth data for Artifact types and locations used at th
 
 * Systems_Finals_Artifact_Ground_Truth.xlsx -- Spreadsheet listing each Artifact; its type; and x,y,z location in the DARPA coordinate frame.
 * Systems_Finals_Fiducials_Ground_Truth.xlsx -- Spreadsheet listing reference frame fiducials defining the DARPA coordiante frame.
+* artifacts/systems_final_<round>.csv -- Text files listing each Artifact type and x,y,z location in the DARPA coordinate frame.
 * data/systems_final.pcd -- Down-sampled point cloud of the Finals course, defined in the DARPA Cartesian coordinate frame.
 * Systems_Finals_Artifacts_Map_<round>.pdf -- Maps of Artifact locations and associated artifact types for all rounds together and the three rounds individually.
 * course_design/Finals_Course_Callouts.pdf -- Details the design of each section of the Final Event competition course. Each section description includes design parameters, fabrication details, inspiration references, and pictures of both the build and the virtual model.
