@@ -55,7 +55,7 @@ on the */tf_static* ROS topic. These coordinate frames are defined as follows:
  
 * **Finals Course Mesh Files**
     * https://subt-challenge.s3.amazonaws.com/final_event/Systems_Final_Mesh_FBX.zip -- Meshes in FBX format with a file size totaling 0.4 GB.
-    * https://subt-challenge.s3.amazonaws.com/final_event/Systems_Final_Mesh_OBJ.zip -- Meshes in OBJ and MTL format with a file size totaling 4.7 GB. 
+    * https://subt-challenge.s3.amazonaws.com/final_event/Systems_Final_Mesh_OBJ.zip -- Meshes in OBJ format with a file size totaling 4.7 GB. 
  
 * **Virtual Worlds for each Systems Finals Course Configurations**
     * https://github.com/osrf/subt -- Virtual Worlds for each of the course configurations used in the Systems Final Event
