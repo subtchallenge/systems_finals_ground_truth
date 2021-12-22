@@ -50,7 +50,7 @@ on the */tf_static* ROS topic. These coordinate frames are defined as follows:
     * Final Event full run videos: https://youtube.com/playlist?list=PL6wMum5UsYvZd6VwOZVZHu9QldFp8vEgX
  
 * **Finals Course High Resolution Point Cloud**
-    * https://subt-challenge.s3.amazonaws.com/final_event/systems_final_highres.pcd -- High resolution point cloud with a file size of 12 GB.
+    * https://subt-challenge.s3.amazonaws.com/final_event/systems_final_highres.las -- High resolution point cloud with a file size of 12 GB.
     * A full resolution point cloud file is also available upon request (>100 GB). Any teams interested in utilizing the full resolution file may send a request to subtchallenge@darpa.mil.
  
 * **Finals Course Mesh Files**
